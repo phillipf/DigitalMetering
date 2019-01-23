@@ -1,11 +1,10 @@
-.ensime_cache\
-.idea\
-project\
-data\
+.ensime_cache/
+.idea/
+project/
 *.sc
 *.ensime
 *.ipr
 *.iws
 *.bat
 *.el
-target\
+target/
