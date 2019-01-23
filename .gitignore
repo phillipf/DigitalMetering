@@ -1,0 +1,11 @@
+.ensime_cache\
+.idea\
+project\
+data\
+*.sc
+*.ensime
+*.ipr
+*.iws
+*.bat
+*.el
+target\

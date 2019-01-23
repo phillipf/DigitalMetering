@@ -1,0 +1,2009 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.0.3-Girona" projectname="">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2449</srsid>
+      <srid>28355</srid>
+      <authid>EPSG:28355</authid>
+      <description>GDA94 / MGA zone 55</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="../../QGIS/bin/fieldAudit.shp" expanded="1" id="fieldAudit_ec2af06b_0aee_48a8_9466_b269719b2c3d" name="fieldAudit" checked="Qt::Checked" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="../../QGIS/bin/YarraStreet.shp" expanded="1" id="YarraStreet_fc0ae094_b14a_4252_8d37_b1449795ee6a" name="YarraStreet" checked="Qt::Unchecked" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="../../QGIS/bin/richmondDMA.shp" expanded="1" id="richmondDMA_08d9c1ce_9692_4f41_a165_bde5d1c52ba1" name="richmondDMA" checked="Qt::Unchecked" providerKey="ogr">
+      <customproperties>
+        <property value="" key="legend/expressionFilter"/>
+        <property value="false" key="legend/expressionFilterEnabled"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer source="./Church St DMA Water Meters.TAB" expanded="1" id="Church_St_DMA_Water_Meters_bfc13def_26f8_4dc3_9a8d_2ee014c631e5" name="Church St DMA Water Meters" checked="Qt::Unchecked" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="N:/DigitalMetering/DMA Stuff/Church St DMA Boundary 20.04.16.tab" expanded="1" id="Church_St_DMA_Boundary_20_04_16_270915d0_6089_41e3_a594_72518d0c8e3e" name="Church St DMA Boundary 20.04.16" checked="Qt::Unchecked" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./richmondParcels.shp" expanded="1" id="richmondParcels_e2f65590_f5c7_4348_822f_b1378c9c2238" name="richmondParcels" checked="Qt::Unchecked" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="type=xyz&amp;zmin=0&amp;zmax=21&amp;url=http://www.google.cn/maps/vt?lyrs%3Ds@189%26gl%3Dcn%26x%3D{x}%26y%3D{y}%26z%3D{z}" expanded="0" id="Google_cn_Satellites_f5b96e00_ac9d_4011_8635_673eb802d6d2" name="Google.cn Satellites" checked="Qt::Checked" providerKey="wms">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>richmondDMA_08d9c1ce_9692_4f41_a165_bde5d1c52ba1</item>
+      <item>Google_cn_Satellites_f5b96e00_ac9d_4011_8635_673eb802d6d2</item>
+      <item>richmondParcels_e2f65590_f5c7_4348_822f_b1378c9c2238</item>
+      <item>Church_St_DMA_Boundary_20_04_16_270915d0_6089_41e3_a594_72518d0c8e3e</item>
+      <item>Church_St_DMA_Water_Meters_bfc13def_26f8_4dc3_9a8d_2ee014c631e5</item>
+      <item>YarraStreet_fc0ae094_b14a_4252_8d37_b1449795ee6a</item>
+      <item>fieldAudit_ec2af06b_0aee_48a8_9466_b269719b2c3d</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings tolerance="12" enabled="0" unit="1" mode="2" type="1" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting tolerance="12" units="1" enabled="0" id="Church_St_DMA_Water_Meters_bfc13def_26f8_4dc3_9a8d_2ee014c631e5" type="1"/>
+      <layer-setting tolerance="12" units="1" enabled="0" id="fieldAudit_ec2af06b_0aee_48a8_9466_b269719b2c3d" type="1"/>
+      <layer-setting tolerance="12" units="1" enabled="0" id="richmondDMA_08d9c1ce_9692_4f41_a165_bde5d1c52ba1" type="1"/>
+      <layer-setting tolerance="12" units="1" enabled="0" id="richmondParcels_e2f65590_f5c7_4348_822f_b1378c9c2238" type="1"/>
+      <layer-setting tolerance="12" units="1" enabled="0" id="Church_St_DMA_Boundary_20_04_16_270915d0_6089_41e3_a594_72518d0c8e3e" type="1"/>
+      <layer-setting tolerance="12" units="1" enabled="0" id="YarraStreet_fc0ae094_b14a_4252_8d37_b1449795ee6a" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>323500.66225759778171778</xmin>
+      <ymin>5810895.82615986187011003</ymin>
+      <xmax>323784.06813841592520475</xmax>
+      <ymax>5811118.7815238805487752</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2449</srsid>
+        <srid>28355</srid>
+        <authid>EPSG:28355</authid>
+        <description>GDA94 / MGA zone 55</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="fieldAudit" drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="fieldAudit_ec2af06b_0aee_48a8_9466_b269719b2c3d" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="YarraStreet" drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="YarraStreet_fc0ae094_b14a_4252_8d37_b1449795ee6a" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="richmondDMA" drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="richmondDMA_08d9c1ce_9692_4f41_a165_bde5d1c52ba1" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="Church St DMA Water Meters" drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="Church_St_DMA_Water_Meters_bfc13def_26f8_4dc3_9a8d_2ee014c631e5" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="Church St DMA Boundary 20.04.16" drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="Church_St_DMA_Boundary_20_04_16_270915d0_6089_41e3_a594_72518d0c8e3e" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="richmondParcels" drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="richmondParcels_e2f65590_f5c7_4348_822f_b1378c9c2238" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="Google.cn Satellites" drawingOrder="-1" open="false" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup hidden="false" open="false">
+        <legendlayerfile isInOverview="0" layerid="Google_cn_Satellites_f5b96e00_ac9d_4011_8635_673eb802d6d2" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+8" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" type="vector" geometry="Polygon" labelsEnabled="0" simplifyDrawingHints="1">
+      <extent>
+        <xmin>323243.52000000001862645</xmin>
+        <ymin>5810490.61000000033527613</ymin>
+        <xmax>324193.27000000001862645</xmax>
+        <ymax>5811479.66000000014901161</ymax>
+      </extent>
+      <id>Church_St_DMA_Boundary_20_04_16_270915d0_6089_41e3_a594_72518d0c8e3e</id>
+      <datasource>N:/DigitalMetering/DMA Stuff/Church St DMA Boundary 20.04.16.tab</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Church St DMA Boundary 20.04.16</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1852</srsid>
+          <srid>20355</srid>
+          <authid>EPSG:20355</authid>
+          <description>AGD84 / AMG zone 55</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>aust_SA</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" maxy="0" crs="" maxz="0" minx="0" maxx="0" minz="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" name="0" type="fill" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="178,223,138,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory diagramOrientation="Up" backgroundAlpha="255" penWidth="0" lineSizeType="MM" height="15" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" penAlpha="255" backgroundColor="#ffffff" scaleBasedVisibility="0" maxScaleDenominator="1e+8" scaleDependency="Area" opacity="1" width="15" rotationOffset="270" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" minScaleDenominator="0" minimumSize="0" enabled="0" sizeType="MM">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings linePlacementFlags="18" dist="0" obstacle="0" showAll="1" priority="0" placement="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Code">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Total_Demand">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Count_All_Cust">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Count_User_5000kl">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Count_Key_Cust">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Area_ha">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Comments">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="Name" name="" index="0"/>
+        <alias field="Code" name="" index="1"/>
+        <alias field="Type" name="" index="2"/>
+        <alias field="Total_Demand" name="" index="3"/>
+        <alias field="Count_All_Cust" name="" index="4"/>
+        <alias field="Count_User_5000kl" name="" index="5"/>
+        <alias field="Count_Key_Cust" name="" index="6"/>
+        <alias field="Area_ha" name="" index="7"/>
+        <alias field="Comments" name="" index="8"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="Name" applyOnUpdate="0" expression=""/>
+        <default field="Code" applyOnUpdate="0" expression=""/>
+        <default field="Type" applyOnUpdate="0" expression=""/>
+        <default field="Total_Demand" applyOnUpdate="0" expression=""/>
+        <default field="Count_All_Cust" applyOnUpdate="0" expression=""/>
+        <default field="Count_User_5000kl" applyOnUpdate="0" expression=""/>
+        <default field="Count_Key_Cust" applyOnUpdate="0" expression=""/>
+        <default field="Area_ha" applyOnUpdate="0" expression=""/>
+        <default field="Comments" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" field="Name" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Code" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Type" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Total_Demand" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Count_All_Cust" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Count_User_5000kl" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Count_Key_Cust" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Area_ha" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Comments" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="Name" exp="" desc=""/>
+        <constraint field="Code" exp="" desc=""/>
+        <constraint field="Type" exp="" desc=""/>
+        <constraint field="Total_Demand" exp="" desc=""/>
+        <constraint field="Count_All_Cust" exp="" desc=""/>
+        <constraint field="Count_User_5000kl" exp="" desc=""/>
+        <constraint field="Count_Key_Cust" exp="" desc=""/>
+        <constraint field="Area_ha" exp="" desc=""/>
+        <constraint field="Comments" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="Name" width="-1" type="field"/>
+          <column hidden="0" name="Code" width="-1" type="field"/>
+          <column hidden="0" name="Type" width="-1" type="field"/>
+          <column hidden="0" name="Total_Demand" width="-1" type="field"/>
+          <column hidden="0" name="Count_All_Cust" width="-1" type="field"/>
+          <column hidden="0" name="Count_User_5000kl" width="-1" type="field"/>
+          <column hidden="0" name="Count_Key_Cust" width="-1" type="field"/>
+          <column hidden="0" name="Area_ha" width="-1" type="field"/>
+          <column hidden="0" name="Comments" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="Area_ha" editable="1"/>
+        <field name="Code" editable="1"/>
+        <field name="Comments" editable="1"/>
+        <field name="Count_All_Cust" editable="1"/>
+        <field name="Count_Key_Cust" editable="1"/>
+        <field name="Count_User_5000kl" editable="1"/>
+        <field name="Name" editable="1"/>
+        <field name="Total_Demand" editable="1"/>
+        <field name="Type" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Area_ha" labelOnTop="0"/>
+        <field name="Code" labelOnTop="0"/>
+        <field name="Comments" labelOnTop="0"/>
+        <field name="Count_All_Cust" labelOnTop="0"/>
+        <field name="Count_Key_Cust" labelOnTop="0"/>
+        <field name="Count_User_5000kl" labelOnTop="0"/>
+        <field name="Name" labelOnTop="0"/>
+        <field name="Total_Demand" labelOnTop="0"/>
+        <field name="Type" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>Name</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+8" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" type="vector" geometry="Point" labelsEnabled="0" simplifyDrawingHints="1">
+      <extent>
+        <xmin>323337</xmin>
+        <ymin>5810783</ymin>
+        <xmax>324358</xmax>
+        <ymax>5811708</ymax>
+      </extent>
+      <id>Church_St_DMA_Water_Meters_bfc13def_26f8_4dc3_9a8d_2ee014c631e5</id>
+      <datasource>./Church St DMA Water Meters.TAB</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Church St DMA Water Meters</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2449</srsid>
+          <srid>28355</srid>
+          <authid>EPSG:28355</authid>
+          <description>GDA94 / MGA zone 55</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" name="0" type="marker" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="227,106,211,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>COALESCE( "STREET", '&lt;NULL>' )</value>
+          <value>COALESCE( "STREET", '&lt;NULL>' )</value>
+          <value>COALESCE( "STREET", '&lt;NULL>' )</value>
+          <value>COALESCE( "STREET", '&lt;NULL>' )</value>
+          <value>"MASTERID"</value>
+          <value>COALESCE( "STREET", '&lt;NULL>' )</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="MASTERID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q0_1516_WU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q1_1516_WU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q2_1516_WU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q3_1516_WU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q4_1516_WU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ACNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="H_Phone">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="M_Phone">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="W_Phone">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STREET">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOCA_SUBURB">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOCA_POSTCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GBIMMETERNO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IMIBUILDTYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="New_X">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="New_Y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="XY_Updated">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ICHGCLASS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Res_NonRes">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Prop_Status">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Water_Supply">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Sewer_Connected">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Recycled_Water">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q0_1516_RU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q1_1516_RU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q2_1516_RU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q3_1516_RU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Q4_1516_RU10_20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="MASTERID" name="" index="0"/>
+        <alias field="Q0_1516_WU10_20" name="" index="1"/>
+        <alias field="Q1_1516_WU10_20" name="" index="2"/>
+        <alias field="Q2_1516_WU10_20" name="" index="3"/>
+        <alias field="Q3_1516_WU10_20" name="" index="4"/>
+        <alias field="Q4_1516_WU10_20" name="" index="5"/>
+        <alias field="ACNAME" name="" index="6"/>
+        <alias field="H_Phone" name="" index="7"/>
+        <alias field="M_Phone" name="" index="8"/>
+        <alias field="W_Phone" name="" index="9"/>
+        <alias field="STREET" name="" index="10"/>
+        <alias field="LOCA_SUBURB" name="" index="11"/>
+        <alias field="LOCA_POSTCODE" name="" index="12"/>
+        <alias field="GBIMMETERNO" name="" index="13"/>
+        <alias field="IMIBUILDTYPE" name="" index="14"/>
+        <alias field="New_X" name="" index="15"/>
+        <alias field="New_Y" name="" index="16"/>
+        <alias field="XY_Updated" name="" index="17"/>
+        <alias field="ICHGCLASS" name="" index="18"/>
+        <alias field="Res_NonRes" name="" index="19"/>
+        <alias field="Prop_Status" name="" index="20"/>
+        <alias field="Water_Supply" name="" index="21"/>
+        <alias field="Sewer_Connected" name="" index="22"/>
+        <alias field="Recycled_Water" name="" index="23"/>
+        <alias field="Q0_1516_RU10_20" name="" index="24"/>
+        <alias field="Q1_1516_RU10_20" name="" index="25"/>
+        <alias field="Q2_1516_RU10_20" name="" index="26"/>
+        <alias field="Q3_1516_RU10_20" name="" index="27"/>
+        <alias field="Q4_1516_RU10_20" name="" index="28"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="MASTERID" applyOnUpdate="0" expression=""/>
+        <default field="Q0_1516_WU10_20" applyOnUpdate="0" expression=""/>
+        <default field="Q1_1516_WU10_20" applyOnUpdate="0" expression=""/>
+        <default field="Q2_1516_WU10_20" applyOnUpdate="0" expression=""/>
+        <default field="Q3_1516_WU10_20" applyOnUpdate="0" expression=""/>
+        <default field="Q4_1516_WU10_20" applyOnUpdate="0" expression=""/>
+        <default field="ACNAME" applyOnUpdate="0" expression=""/>
+        <default field="H_Phone" applyOnUpdate="0" expression=""/>
+        <default field="M_Phone" applyOnUpdate="0" expression=""/>
+        <default field="W_Phone" applyOnUpdate="0" expression=""/>
+        <default field="STREET" applyOnUpdate="0" expression=""/>
+        <default field="LOCA_SUBURB" applyOnUpdate="0" expression=""/>
+        <default field="LOCA_POSTCODE" applyOnUpdate="0" expression=""/>
+        <default field="GBIMMETERNO" applyOnUpdate="0" expression=""/>
+        <default field="IMIBUILDTYPE" applyOnUpdate="0" expression=""/>
+        <default field="New_X" applyOnUpdate="0" expression=""/>
+        <default field="New_Y" applyOnUpdate="0" expression=""/>
+        <default field="XY_Updated" applyOnUpdate="0" expression=""/>
+        <default field="ICHGCLASS" applyOnUpdate="0" expression=""/>
+        <default field="Res_NonRes" applyOnUpdate="0" expression=""/>
+        <default field="Prop_Status" applyOnUpdate="0" expression=""/>
+        <default field="Water_Supply" applyOnUpdate="0" expression=""/>
+        <default field="Sewer_Connected" applyOnUpdate="0" expression=""/>
+        <default field="Recycled_Water" applyOnUpdate="0" expression=""/>
+        <default field="Q0_1516_RU10_20" applyOnUpdate="0" expression=""/>
+        <default field="Q1_1516_RU10_20" applyOnUpdate="0" expression=""/>
+        <default field="Q2_1516_RU10_20" applyOnUpdate="0" expression=""/>
+        <default field="Q3_1516_RU10_20" applyOnUpdate="0" expression=""/>
+        <default field="Q4_1516_RU10_20" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" field="MASTERID" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q0_1516_WU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q1_1516_WU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q2_1516_WU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q3_1516_WU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q4_1516_WU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="ACNAME" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="H_Phone" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="M_Phone" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="W_Phone" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="STREET" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="LOCA_SUBURB" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="LOCA_POSTCODE" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="GBIMMETERNO" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="IMIBUILDTYPE" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="New_X" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="New_Y" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="XY_Updated" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="ICHGCLASS" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Res_NonRes" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Prop_Status" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Water_Supply" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Sewer_Connected" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Recycled_Water" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q0_1516_RU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q1_1516_RU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q2_1516_RU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q3_1516_RU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Q4_1516_RU10_20" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="MASTERID" exp="" desc=""/>
+        <constraint field="Q0_1516_WU10_20" exp="" desc=""/>
+        <constraint field="Q1_1516_WU10_20" exp="" desc=""/>
+        <constraint field="Q2_1516_WU10_20" exp="" desc=""/>
+        <constraint field="Q3_1516_WU10_20" exp="" desc=""/>
+        <constraint field="Q4_1516_WU10_20" exp="" desc=""/>
+        <constraint field="ACNAME" exp="" desc=""/>
+        <constraint field="H_Phone" exp="" desc=""/>
+        <constraint field="M_Phone" exp="" desc=""/>
+        <constraint field="W_Phone" exp="" desc=""/>
+        <constraint field="STREET" exp="" desc=""/>
+        <constraint field="LOCA_SUBURB" exp="" desc=""/>
+        <constraint field="LOCA_POSTCODE" exp="" desc=""/>
+        <constraint field="GBIMMETERNO" exp="" desc=""/>
+        <constraint field="IMIBUILDTYPE" exp="" desc=""/>
+        <constraint field="New_X" exp="" desc=""/>
+        <constraint field="New_Y" exp="" desc=""/>
+        <constraint field="XY_Updated" exp="" desc=""/>
+        <constraint field="ICHGCLASS" exp="" desc=""/>
+        <constraint field="Res_NonRes" exp="" desc=""/>
+        <constraint field="Prop_Status" exp="" desc=""/>
+        <constraint field="Water_Supply" exp="" desc=""/>
+        <constraint field="Sewer_Connected" exp="" desc=""/>
+        <constraint field="Recycled_Water" exp="" desc=""/>
+        <constraint field="Q0_1516_RU10_20" exp="" desc=""/>
+        <constraint field="Q1_1516_RU10_20" exp="" desc=""/>
+        <constraint field="Q2_1516_RU10_20" exp="" desc=""/>
+        <constraint field="Q3_1516_RU10_20" exp="" desc=""/>
+        <constraint field="Q4_1516_RU10_20" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="&quot;STREET&quot;" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="MASTERID" width="-1" type="field"/>
+          <column hidden="0" name="Q0_1516_WU10_20" width="-1" type="field"/>
+          <column hidden="0" name="Q1_1516_WU10_20" width="-1" type="field"/>
+          <column hidden="0" name="Q2_1516_WU10_20" width="-1" type="field"/>
+          <column hidden="0" name="Q3_1516_WU10_20" width="-1" type="field"/>
+          <column hidden="0" name="Q4_1516_WU10_20" width="-1" type="field"/>
+          <column hidden="0" name="ACNAME" width="-1" type="field"/>
+          <column hidden="0" name="H_Phone" width="-1" type="field"/>
+          <column hidden="0" name="M_Phone" width="-1" type="field"/>
+          <column hidden="0" name="W_Phone" width="-1" type="field"/>
+          <column hidden="0" name="STREET" width="-1" type="field"/>
+          <column hidden="0" name="LOCA_SUBURB" width="-1" type="field"/>
+          <column hidden="0" name="LOCA_POSTCODE" width="-1" type="field"/>
+          <column hidden="0" name="GBIMMETERNO" width="-1" type="field"/>
+          <column hidden="0" name="IMIBUILDTYPE" width="-1" type="field"/>
+          <column hidden="0" name="New_X" width="-1" type="field"/>
+          <column hidden="0" name="New_Y" width="-1" type="field"/>
+          <column hidden="0" name="XY_Updated" width="-1" type="field"/>
+          <column hidden="0" name="ICHGCLASS" width="-1" type="field"/>
+          <column hidden="0" name="Res_NonRes" width="-1" type="field"/>
+          <column hidden="0" name="Prop_Status" width="-1" type="field"/>
+          <column hidden="0" name="Water_Supply" width="-1" type="field"/>
+          <column hidden="0" name="Sewer_Connected" width="-1" type="field"/>
+          <column hidden="0" name="Recycled_Water" width="-1" type="field"/>
+          <column hidden="0" name="Q0_1516_RU10_20" width="-1" type="field"/>
+          <column hidden="0" name="Q1_1516_RU10_20" width="-1" type="field"/>
+          <column hidden="0" name="Q2_1516_RU10_20" width="-1" type="field"/>
+          <column hidden="0" name="Q3_1516_RU10_20" width="-1" type="field"/>
+          <column hidden="0" name="Q4_1516_RU10_20" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>COALESCE( "STREET", '&lt;NULL>' )</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+8" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" type="raster">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_cn_Satellites_f5b96e00_ac9d_4011_8635_673eb802d6d2</id>
+      <datasource>type=xyz&amp;zmin=0&amp;zmax=21&amp;url=http://www.google.cn/maps/vt?lyrs%3Ds@189%26gl%3Dcn%26x%3D{x}%26y%3D{y}%26z%3D{z}</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google.cn Satellites</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" grayscaleMode="0" colorizeRed="255" colorizeOn="0" colorizeStrength="100" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+8" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" type="vector" geometry="Polygon" labelsEnabled="0" simplifyDrawingHints="1">
+      <extent>
+        <xmin>323377.66999999998370185</xmin>
+        <ymin>5810263.25</ymin>
+        <xmax>323419</xmax>
+        <ymax>5810298.53000000026077032</ymax>
+      </extent>
+      <id>YarraStreet_fc0ae094_b14a_4252_8d37_b1449795ee6a</id>
+      <datasource>../../QGIS/bin/YarraStreet.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>YarraStreet</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2449</srsid>
+          <srid>28355</srid>
+          <authid>EPSG:28355</authid>
+          <description>GDA94 / MGA zone 55</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" name="0" type="fill" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="82,159,91,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" name="" index="0"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" field="id" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="id" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+8" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" type="vector" geometry="Polygon" labelsEnabled="0" simplifyDrawingHints="1">
+      <extent>
+        <xmin>323377.66999999998370185</xmin>
+        <ymin>5810263.25</ymin>
+        <xmax>323419</xmax>
+        <ymax>5810298.53000000026077032</ymax>
+      </extent>
+      <id>fieldAudit_ec2af06b_0aee_48a8_9466_b269719b2c3d</id>
+      <datasource>../../QGIS/bin/fieldAudit.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>fieldAudit</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2449</srsid>
+          <srid>28355</srid>
+          <authid>EPSG:28355</authid>
+          <description>GDA94 / MGA zone 55</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" name="0" type="fill" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="115,173,22,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" name="" index="0"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" field="id" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+8" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" type="vector" geometry="Polygon" labelsEnabled="0" simplifyDrawingHints="1">
+      <extent>
+        <xmin>322928.61999999999534339</xmin>
+        <ymin>5810666.7099999999627471</ymin>
+        <xmax>325465.90000000002328306</xmax>
+        <ymax>5813397.7099999999627471</ymax>
+      </extent>
+      <id>richmondDMA_08d9c1ce_9692_4f41_a165_bde5d1c52ba1</id>
+      <datasource>../../QGIS/bin/richmondDMA.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>richmondDMA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2449</srsid>
+          <srid>28355</srid>
+          <authid>EPSG:28355</authid>
+          <description>GDA94 / MGA zone 55</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" name="0" type="fill" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="189,131,138,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" name="" index="0"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" field="id" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="id" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+8" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" type="vector" geometry="Polygon" labelsEnabled="0" simplifyDrawingHints="1">
+      <extent>
+        <xmin>321454.55999999999767169</xmin>
+        <ymin>5809402.80999999959021807</ymin>
+        <xmax>326241.92999999999301508</xmax>
+        <ymax>5812327.82000000029802322</ymax>
+      </extent>
+      <id>richmondParcels_e2f65590_f5c7_4348_822f_b1378c9c2238</id>
+      <datasource>./richmondParcels.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>richmondParcels</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2449</srsid>
+          <srid>28355</srid>
+          <authid>EPSG:28355</authid>
+          <description>GDA94 / MGA zone 55</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" maxy="0" crs="" maxz="0" minx="0" maxx="0" minz="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" name="0" type="fill" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="166,206,227,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory diagramOrientation="Up" backgroundAlpha="255" penWidth="0" lineSizeType="MM" height="15" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" penAlpha="255" backgroundColor="#ffffff" scaleBasedVisibility="0" maxScaleDenominator="1e+8" scaleDependency="Area" opacity="1" width="15" rotationOffset="270" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" minScaleDenominator="0" minimumSize="0" enabled="0" sizeType="MM">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings linePlacementFlags="18" dist="0" obstacle="0" showAll="1" priority="0" placement="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOM_AREA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COMMENTS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TAG_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TAG_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TAG_VALUE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TAG_SIZE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TAG_ANGLE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TAG_JUST">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PFI">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UFI_CREATE">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UFI_OLD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UFI">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FEATURE_TY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FEATURE_QU">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Z_LEVEL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PFI_CREATE">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REMOVED_FL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DATE_STAMP">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARENT_GID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATUS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="fid" name="" index="0"/>
+        <alias field="GID" name="" index="1"/>
+        <alias field="GEOM_AREA" name="" index="2"/>
+        <alias field="COMMENTS" name="" index="3"/>
+        <alias field="TAG_X" name="" index="4"/>
+        <alias field="TAG_Y" name="" index="5"/>
+        <alias field="TAG_VALUE" name="" index="6"/>
+        <alias field="TAG_SIZE" name="" index="7"/>
+        <alias field="TAG_ANGLE" name="" index="8"/>
+        <alias field="TAG_JUST" name="" index="9"/>
+        <alias field="PFI" name="" index="10"/>
+        <alias field="UFI_CREATE" name="" index="11"/>
+        <alias field="UFI_OLD" name="" index="12"/>
+        <alias field="UFI" name="" index="13"/>
+        <alias field="FEATURE_TY" name="" index="14"/>
+        <alias field="FEATURE_QU" name="" index="15"/>
+        <alias field="Z_LEVEL" name="" index="16"/>
+        <alias field="PFI_CREATE" name="" index="17"/>
+        <alias field="REMOVED_FL" name="" index="18"/>
+        <alias field="DATE_STAMP" name="" index="19"/>
+        <alias field="PARENT_GID" name="" index="20"/>
+        <alias field="STATUS" name="" index="21"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="GID" applyOnUpdate="0" expression=""/>
+        <default field="GEOM_AREA" applyOnUpdate="0" expression=""/>
+        <default field="COMMENTS" applyOnUpdate="0" expression=""/>
+        <default field="TAG_X" applyOnUpdate="0" expression=""/>
+        <default field="TAG_Y" applyOnUpdate="0" expression=""/>
+        <default field="TAG_VALUE" applyOnUpdate="0" expression=""/>
+        <default field="TAG_SIZE" applyOnUpdate="0" expression=""/>
+        <default field="TAG_ANGLE" applyOnUpdate="0" expression=""/>
+        <default field="TAG_JUST" applyOnUpdate="0" expression=""/>
+        <default field="PFI" applyOnUpdate="0" expression=""/>
+        <default field="UFI_CREATE" applyOnUpdate="0" expression=""/>
+        <default field="UFI_OLD" applyOnUpdate="0" expression=""/>
+        <default field="UFI" applyOnUpdate="0" expression=""/>
+        <default field="FEATURE_TY" applyOnUpdate="0" expression=""/>
+        <default field="FEATURE_QU" applyOnUpdate="0" expression=""/>
+        <default field="Z_LEVEL" applyOnUpdate="0" expression=""/>
+        <default field="PFI_CREATE" applyOnUpdate="0" expression=""/>
+        <default field="REMOVED_FL" applyOnUpdate="0" expression=""/>
+        <default field="DATE_STAMP" applyOnUpdate="0" expression=""/>
+        <default field="PARENT_GID" applyOnUpdate="0" expression=""/>
+        <default field="STATUS" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" field="fid" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="GID" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="GEOM_AREA" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="COMMENTS" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="TAG_X" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="TAG_Y" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="TAG_VALUE" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="TAG_SIZE" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="TAG_ANGLE" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="TAG_JUST" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="PFI" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="UFI_CREATE" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="UFI_OLD" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="UFI" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="FEATURE_TY" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="FEATURE_QU" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="Z_LEVEL" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="PFI_CREATE" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="REMOVED_FL" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="DATE_STAMP" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="PARENT_GID" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" field="STATUS" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" exp="" desc=""/>
+        <constraint field="GID" exp="" desc=""/>
+        <constraint field="GEOM_AREA" exp="" desc=""/>
+        <constraint field="COMMENTS" exp="" desc=""/>
+        <constraint field="TAG_X" exp="" desc=""/>
+        <constraint field="TAG_Y" exp="" desc=""/>
+        <constraint field="TAG_VALUE" exp="" desc=""/>
+        <constraint field="TAG_SIZE" exp="" desc=""/>
+        <constraint field="TAG_ANGLE" exp="" desc=""/>
+        <constraint field="TAG_JUST" exp="" desc=""/>
+        <constraint field="PFI" exp="" desc=""/>
+        <constraint field="UFI_CREATE" exp="" desc=""/>
+        <constraint field="UFI_OLD" exp="" desc=""/>
+        <constraint field="UFI" exp="" desc=""/>
+        <constraint field="FEATURE_TY" exp="" desc=""/>
+        <constraint field="FEATURE_QU" exp="" desc=""/>
+        <constraint field="Z_LEVEL" exp="" desc=""/>
+        <constraint field="PFI_CREATE" exp="" desc=""/>
+        <constraint field="REMOVED_FL" exp="" desc=""/>
+        <constraint field="DATE_STAMP" exp="" desc=""/>
+        <constraint field="PARENT_GID" exp="" desc=""/>
+        <constraint field="STATUS" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="fid" width="-1" type="field"/>
+          <column hidden="0" name="GID" width="-1" type="field"/>
+          <column hidden="0" name="GEOM_AREA" width="-1" type="field"/>
+          <column hidden="0" name="COMMENTS" width="-1" type="field"/>
+          <column hidden="0" name="TAG_X" width="-1" type="field"/>
+          <column hidden="0" name="TAG_Y" width="-1" type="field"/>
+          <column hidden="0" name="TAG_VALUE" width="-1" type="field"/>
+          <column hidden="0" name="TAG_SIZE" width="-1" type="field"/>
+          <column hidden="0" name="TAG_ANGLE" width="-1" type="field"/>
+          <column hidden="0" name="TAG_JUST" width="-1" type="field"/>
+          <column hidden="0" name="PFI" width="-1" type="field"/>
+          <column hidden="0" name="UFI_CREATE" width="-1" type="field"/>
+          <column hidden="0" name="UFI_OLD" width="-1" type="field"/>
+          <column hidden="0" name="UFI" width="-1" type="field"/>
+          <column hidden="0" name="FEATURE_TY" width="-1" type="field"/>
+          <column hidden="0" name="FEATURE_QU" width="-1" type="field"/>
+          <column hidden="0" name="Z_LEVEL" width="-1" type="field"/>
+          <column hidden="0" name="PFI_CREATE" width="-1" type="field"/>
+          <column hidden="0" name="REMOVED_FL" width="-1" type="field"/>
+          <column hidden="0" name="DATE_STAMP" width="-1" type="field"/>
+          <column hidden="0" name="PARENT_GID" width="-1" type="field"/>
+          <column hidden="0" name="STATUS" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="COMMENTS" editable="1"/>
+        <field name="DATE_STAMP" editable="1"/>
+        <field name="FEATURE_QU" editable="1"/>
+        <field name="FEATURE_TY" editable="1"/>
+        <field name="GEOM_AREA" editable="1"/>
+        <field name="GID" editable="1"/>
+        <field name="PARENT_GID" editable="1"/>
+        <field name="PFI" editable="1"/>
+        <field name="PFI_CREATE" editable="1"/>
+        <field name="REMOVED_FL" editable="1"/>
+        <field name="STATUS" editable="1"/>
+        <field name="TAG_ANGLE" editable="1"/>
+        <field name="TAG_JUST" editable="1"/>
+        <field name="TAG_SIZE" editable="1"/>
+        <field name="TAG_VALUE" editable="1"/>
+        <field name="TAG_X" editable="1"/>
+        <field name="TAG_Y" editable="1"/>
+        <field name="UFI" editable="1"/>
+        <field name="UFI_CREATE" editable="1"/>
+        <field name="UFI_OLD" editable="1"/>
+        <field name="Z_LEVEL" editable="1"/>
+        <field name="fid" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="COMMENTS" labelOnTop="0"/>
+        <field name="DATE_STAMP" labelOnTop="0"/>
+        <field name="FEATURE_QU" labelOnTop="0"/>
+        <field name="FEATURE_TY" labelOnTop="0"/>
+        <field name="GEOM_AREA" labelOnTop="0"/>
+        <field name="GID" labelOnTop="0"/>
+        <field name="PARENT_GID" labelOnTop="0"/>
+        <field name="PFI" labelOnTop="0"/>
+        <field name="PFI_CREATE" labelOnTop="0"/>
+        <field name="REMOVED_FL" labelOnTop="0"/>
+        <field name="STATUS" labelOnTop="0"/>
+        <field name="TAG_ANGLE" labelOnTop="0"/>
+        <field name="TAG_JUST" labelOnTop="0"/>
+        <field name="TAG_SIZE" labelOnTop="0"/>
+        <field name="TAG_VALUE" labelOnTop="0"/>
+        <field name="TAG_X" labelOnTop="0"/>
+        <field name="TAG_Y" labelOnTop="0"/>
+        <field name="UFI" labelOnTop="0"/>
+        <field name="UFI_CREATE" labelOnTop="0"/>
+        <field name="UFI_OLD" labelOnTop="0"/>
+        <field name="Z_LEVEL" labelOnTop="0"/>
+        <field name="fid" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>fid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="richmondDMA_08d9c1ce_9692_4f41_a165_bde5d1c52ba1"/>
+    <layer id="Google_cn_Satellites_f5b96e00_ac9d_4011_8635_673eb802d6d2"/>
+    <layer id="richmondParcels_e2f65590_f5c7_4348_822f_b1378c9c2238"/>
+    <layer id="Church_St_DMA_Boundary_20_04_16_270915d0_6089_41e3_a594_72518d0c8e3e"/>
+    <layer id="Church_St_DMA_Water_Meters_bfc13def_26f8_4dc3_9a8d_2ee014c631e5"/>
+    <layer id="YarraStreet_fc0ae094_b14a_4252_8d37_b1449795ee6a"/>
+    <layer id="fieldAudit_ec2af06b_0aee_48a8_9466_b269719b2c3d"/>
+  </layerorder>
+  <properties>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WFSLayers type="QStringList"/>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <Gui>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+    </Gui>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <WCSLayers type="QStringList"/>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WMSUrl type="QString"></WMSUrl>
+    <Measure>
+      <Ellipsoid type="QString">GRS80</Ellipsoid>
+    </Measure>
+    <WFSUrl type="QString"></WFSUrl>
+    <DefaultStyles>
+      <RandomColors type="bool">true</RandomColors>
+      <ColorRamp type="QString"></ColorRamp>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <Opacity type="double">1</Opacity>
+      <Fill type="QString"></Fill>
+    </DefaultStyles>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <Annotations/>
+  <Layouts/>
+</qgis>

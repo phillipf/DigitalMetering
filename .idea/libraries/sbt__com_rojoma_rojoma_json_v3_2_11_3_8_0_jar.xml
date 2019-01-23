@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.rojoma:rojoma-json-v3_2.11:3.8.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.rojoma/rojoma-json-v3_2.11/jars/rojoma-json-v3_2.11-3.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.rojoma/rojoma-json-v3_2.11/srcs/rojoma-json-v3_2.11-3.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,21 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 9
+    Name Char (30) Index 1 ;
+    Code Char (30) ;
+    Type Char (8) Index 2 ;
+    Total_Demand Float ;
+    Count_All_Cust Integer ;
+    Count_User_5000kl Integer ;
+    Count_Key_Cust Integer ;
+    Area_ha Integer ;
+    Comments Char (50) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "a79a3725-5b3f-44a5-a1b7-66a7af3111a5"
+end_metadata

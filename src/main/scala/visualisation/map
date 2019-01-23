@@ -1,0 +1,93 @@
+$(function () {
+ $(function () {
+  'use strict';
+
+
+
+  var map = geo.map({
+    node: '#map',
+    center: {
+      x: -125,
+      y: 36.5
+    },
+    zoom: 4
+  });
+
+
+
+  map.createLayer(
+    'osm',
+    {
+      url: 'http://tile.stamen.com/toner-lite/{z}/{x}/{y}.png',
+      attribution: ['Map tiles by <a href="http://stamen.com">Stamen Design</a>,',
+        'under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>.',
+        'Data by <a href="https://openstreetmap.org">OpenStreetMap</a>, under',
+        '<a href="https://openstreetmap.org/copyright">ODbL</a>.'
+      ].join(' ')
+    }
+  );
+
+
+  var layer = map.createLayer('feature', {features: ['point', 'line', 'polygon']});
+  map.draw();
+
+
+
+  var reader = geo.createFileReader('jsonReader', {'layer': layer});
+  map.fileReader(reader);
+
+
+  var data = '{}';
+
+  $.ajax({
+    url: 'data.json',
+    dataType: 'text',
+    success: function (_data) {
+
+
+      data = _data;
+    },
+    complete: function () {
+
+
+      var text;
+      var config = {
+        mode: 'application/json',
+        matchBrackets: true,
+        gutters: ['CodeMirror-lint-markers', 'CodeMirror-foldgutter'],
+        foldGutter: CodeMirror.fold.brace,
+        lint: CodeMirror.lint.json
+      };
+      text = new CodeMirror(document.body, config);
+
+
+      text.on('changes', function () {
+
+        try {
+
+
+          jsonlint.parse(text.getValue());
+        } catch (err) {
+          return;
+        }
+
+
+        layer.clear();
+
+
+        reader.read(
+          text.getValue(),
+          function (/* features */) {
+
+
+            map.draw();
+          }
+        );
+      });
+
+
+
+      text.setValue(data);
+    }
+  });
+});

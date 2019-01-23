@@ -1,0 +1,24 @@
+!table
+!version 550
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 11
+    GID Decimal (12, 0) Index 2 ;
+    SUB_CODE Char (40) Index 1 ;
+    GEOM_AREA Float ;
+    COMMENTS Char (150) ;
+    TAG_X Float ;
+    TAG_Y Float ;
+    TAG_VALUE Char (200) ;
+    TAG_SIZE Float ;
+    TAG_ANGLE Float ;
+    TAG_JUST Char (2) ;
+    DATE_STAMP Date ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "4ecce10d-8757-44c1-8bf2-f326f7ebdde5"
+"\MapInfo\ParentTableID" = "6a2ca96b-9ac1-4bf7-b2ec-e58332cde4a5"
+end_metadata

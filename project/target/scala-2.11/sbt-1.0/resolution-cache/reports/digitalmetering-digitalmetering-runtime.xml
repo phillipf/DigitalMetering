@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="digitalmetering"
+		module="digitalmetering"
+		revision="0.1"
+		extra-scalaVersion="2.11"
+		extra-sbtVersion="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180703195436"/>
+	<dependencies>
+		<module organisation="com.outr" name="lucene4s_2.11">
+			<revision name="1.6.0" status="release" pubdate="20180405235122" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/outr/lucene4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="MIT" url="https://github.com/outr/lucene4s/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3841" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.outr\lucene4s_2.11\ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/outr/lucene4s_2.11/1.6.0/lucene4s_2.11-1.6.0.pom"/>
+				<caller organisation="digitalmetering" name="digitalmetering" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene4s_2.11" type="jar" ext="jar" status="no" details="" size="373595" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.outr\lucene4s_2.11\jars\lucene4s_2.11-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/outr/lucene4s_2.11/1.6.0/lucene4s_2.11-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-highlighter">
+			<revision name="7.2.1" status="release" pubdate="20180114203301" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="408602" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-highlighter\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/7.2.1/lucene-highlighter-7.2.1.pom"/>
+				<caller organisation="com.outr" name="lucene4s_2.11" conf="default, compile, runtime, master" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="lucene-highlighter" type="jar" ext="jar" status="no" details="" size="197790" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-highlighter\jars\lucene-highlighter-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/7.2.1/lucene-highlighter-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-memory">
+			<revision name="7.2.1" status="release" pubdate="20180114203241" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="407975" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-memory\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/7.2.1/lucene-memory-7.2.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-highlighter" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<artifacts>
+					<artifact name="lucene-memory" type="jar" ext="jar" status="no" details="" size="46969" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-memory\jars\lucene-memory-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/7.2.1/lucene-memory-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-join">
+			<revision name="7.2.1" status="release" pubdate="20180114203250" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="407440" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-join\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/7.2.1/lucene-join-7.2.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-highlighter" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<artifacts>
+					<artifact name="lucene-join" type="jar" ext="jar" status="no" details="" size="146135" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-join\jars\lucene-join-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/7.2.1/lucene-join-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-facet">
+			<revision name="7.2.1" status="release" pubdate="20180114203324" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="407881" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-facet\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/7.2.1/lucene-facet-7.2.1.pom"/>
+				<caller organisation="com.outr" name="lucene4s_2.11" conf="default, compile, runtime, master" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="lucene-facet" type="jar" ext="jar" status="no" details="" size="198489" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-facet\jars\lucene-facet-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-facet/7.2.1/lucene-facet-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.carrotsearch" name="hppc">
+			<revision name="0.7.3" status="release" pubdate="20171022212053" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7413" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.carrotsearch\hppc\ivy-0.7.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.3/hppc-0.7.3.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-facet" conf="compile, runtime" rev="0.7.3" rev-constraint-default="0.7.3" rev-constraint-dynamic="0.7.3" callerrev="7.2.1"/>
+				<artifacts>
+					<artifact name="hppc" type="bundle" ext="jar" status="no" details="" size="1676096" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.carrotsearch\hppc\bundles\hppc-0.7.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.3/hppc-0.7.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queryparser">
+			<revision name="7.2.1" status="release" pubdate="20180114203205" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="408072" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-queryparser\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/7.2.1/lucene-queryparser-7.2.1.pom"/>
+				<caller organisation="com.outr" name="lucene4s_2.11" conf="default, compile, runtime, master" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="lucene-queryparser" type="jar" ext="jar" status="no" details="" size="384677" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-queryparser\jars\lucene-queryparser-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/7.2.1/lucene-queryparser-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-sandbox">
+			<revision name="7.2.1" status="release" pubdate="20180114203142" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="407445" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-sandbox\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/7.2.1/lucene-sandbox-7.2.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-queryparser" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<artifacts>
+					<artifact name="lucene-sandbox" type="jar" ext="jar" status="no" details="" size="183425" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-sandbox\jars\lucene-sandbox-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/7.2.1/lucene-sandbox-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queries">
+			<revision name="7.2.1" status="release" pubdate="20180114203217" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="407452" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-queries\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/7.2.1/lucene-queries-7.2.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-highlighter" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<caller organisation="org.apache.lucene" name="lucene-facet" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<caller organisation="org.apache.lucene" name="lucene-queryparser" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<artifacts>
+					<artifact name="lucene-queries" type="jar" ext="jar" status="no" details="" size="258756" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-queries\jars\lucene-queries-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/7.2.1/lucene-queries-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="7.2.1" status="release" pubdate="20180114203624" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="407529" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-analyzers-common\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/7.2.1/lucene-analyzers-common-7.2.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-highlighter" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<caller organisation="com.outr" name="lucene4s_2.11" conf="default, compile, runtime, master" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="jar" ext="jar" status="no" details="" size="1621932" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-analyzers-common\jars\lucene-analyzers-common-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/7.2.1/lucene-analyzers-common-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="7.2.1" status="release" pubdate="20180114203357" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="406595" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-core\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/7.2.1/lucene-core-7.2.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-highlighter" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<caller organisation="org.apache.lucene" name="lucene-analyzers-common" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<caller organisation="com.outr" name="lucene4s_2.11" conf="default, compile, runtime, master" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="1.6.0"/>
+				<caller organisation="org.apache.lucene" name="lucene-facet" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<caller organisation="org.apache.lucene" name="lucene-queryparser" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="7.2.1"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="2792335" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.apache.lucene\lucene-core\jars\lucene-core-7.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/7.2.1/lucene-core-7.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tpolecat" name="doobie-core_2.11">
+			<revision name="0.5.2" status="release" pubdate="20180401084458" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tpolecat/doobie" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3782" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.tpolecat\doobie-core_2.11\ivy-0.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tpolecat/doobie-core_2.11/0.5.2/doobie-core_2.11-0.5.2.pom"/>
+				<caller organisation="digitalmetering" name="digitalmetering" conf="compile, runtime" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="doobie-core_2.11" type="jar" ext="jar" status="no" details="" size="1145362" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.tpolecat\doobie-core_2.11\jars\doobie-core_2.11-0.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tpolecat/doobie-core_2.11/0.5.2/doobie-core_2.11-0.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.11">
+			<revision name="0.1.4" status="release" pubdate="20170709094014" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="3000" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.lihaoyi\sourcecode_2.11\ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.11/0.1.4/sourcecode_2.11-0.1.4.pom"/>
+				<caller organisation="org.tpolecat" name="doobie-core_2.11" conf="default, compile, runtime, master" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="sourcecode_2.11" type="bundle" ext="jar" status="no" details="" size="117002" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.lihaoyi\sourcecode_2.11\bundles\sourcecode_2.11-0.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.11/0.1.4/sourcecode_2.11-0.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.11" status="release" pubdate="20170414055043" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2864" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.11/scala-reflect-2.11.11.pom"/>
+				<caller organisation="org.typelevel" name="machinist_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.6.2"/>
+				<caller organisation="com.outr" name="lucene4s_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.6.0"/>
+				<caller organisation="org.tpolecat" name="doobie-core_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4602981" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.11/scala-reflect-2.11.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.11">
+			<revision name="2.3.3" status="release" pubdate="20180101014950" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3270" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.chuusai\shapeless_2.11\ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.3/shapeless_2.11-2.3.3.pom"/>
+				<caller organisation="org.tpolecat" name="doobie-core_2.11" conf="default, compile, runtime, master" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="shapeless_2.11" type="bundle" ext="jar" status="no" details="" size="3941691" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.chuusai\shapeless_2.11\bundles\shapeless_2.11-2.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.3/shapeless_2.11-2.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.11">
+			<revision name="1.1.1" status="release" pubdate="20160215215037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\macro-compat_2.11\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.pom"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.3"/>
+				<artifacts>
+					<artifact name="macro-compat_2.11" type="jar" ext="jar" status="no" details="" size="3142" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\macro-compat_2.11\jars\macro-compat_2.11-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tpolecat" name="doobie-free_2.11">
+			<revision name="0.5.2" status="release" pubdate="20180401084535" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tpolecat/doobie" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3513" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.tpolecat\doobie-free_2.11\ivy-0.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tpolecat/doobie-free_2.11/0.5.2/doobie-free_2.11-0.5.2.pom"/>
+				<caller organisation="org.tpolecat" name="doobie-core_2.11" conf="default, compile, runtime, master" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="doobie-free_2.11" type="jar" ext="jar" status="no" details="" size="4295348" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.tpolecat\doobie-free_2.11\jars\doobie-free_2.11-0.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tpolecat/doobie-free_2.11/0.5.2/doobie-free_2.11-0.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-free_2.11">
+			<revision name="1.1.0" status="release" pubdate="20180317083556" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3250" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-free_2.11\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/1.1.0/cats-free_2.11-1.1.0.pom"/>
+				<caller organisation="org.tpolecat" name="doobie-free_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="cats-free_2.11" type="jar" ext="jar" status="no" details="" size="312440" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-free_2.11\jars\cats-free_2.11-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/1.1.0/cats-free_2.11-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="co.fs2" name="fs2-core_2.11">
+			<revision name="0.10.3" status="release" pubdate="20180321063329" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/functional-streams-for-scala/fs2" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2972" time="0" location="C:\Users\farrelp1\.ivy2\cache\co.fs2\fs2-core_2.11\ivy-0.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/co/fs2/fs2-core_2.11/0.10.3/fs2-core_2.11-0.10.3.pom"/>
+				<caller organisation="org.tpolecat" name="doobie-free_2.11" conf="compile, runtime" rev="0.10.3" rev-constraint-default="0.10.3" rev-constraint-dynamic="0.10.3" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="fs2-core_2.11" type="jar" ext="jar" status="no" details="" size="2027057" time="0" location="C:\Users\farrelp1\.ivy2\cache\co.fs2\fs2-core_2.11\jars\fs2-core_2.11-0.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/co/fs2/fs2-core_2.11/0.10.3/fs2-core_2.11-0.10.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_2.11">
+			<revision name="1.1.0" status="release" pubdate="20180317083548" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3379" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-core_2.11\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/1.1.0/cats-core_2.11-1.1.0.pom"/>
+				<caller organisation="org.typelevel" name="cats-free_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.1.0"/>
+				<caller organisation="org.tpolecat" name="doobie-free_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.5.2"/>
+				<caller organisation="co.fs2" name="fs2-core_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.10.3"/>
+				<caller organisation="org.typelevel" name="cats-effect_2.11" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.10"/>
+				<artifacts>
+					<artifact name="cats-core_2.11" type="jar" ext="jar" status="no" details="" size="4988570" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-core_2.11\jars\cats-core_2.11-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/1.1.0/cats-core_2.11-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.1.0"/>
+				<caller organisation="org.tpolecat" name="doobie-free_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.5.2"/>
+				<caller organisation="co.fs2" name="fs2-core_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.10.3"/>
+				<caller organisation="org.typelevel" name="cats-effect_2.11" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.10"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.11">
+			<revision name="1.1.0" status="release" pubdate="20180317083425" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2813" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-kernel_2.11\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/1.1.0/cats-kernel_2.11-1.1.0.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.1.0"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.11" type="jar" ext="jar" status="no" details="" size="3137784" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-kernel_2.11\jars\cats-kernel_2.11-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/1.1.0/cats-kernel_2.11-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-macros_2.11">
+			<revision name="1.1.0" status="release" pubdate="20180317083348" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2960" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-macros_2.11\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/1.1.0/cats-macros_2.11-1.1.0.pom"/>
+				<caller organisation="org.typelevel" name="cats-free_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-core_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.1.0"/>
+				<artifacts>
+					<artifact name="cats-macros_2.11" type="jar" ext="jar" status="no" details="" size="6348" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-macros_2.11\jars\cats-macros_2.11-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/1.1.0/cats-macros_2.11-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.11">
+			<revision name="0.6.2" status="release" pubdate="20170601132704" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\machinist_2.11\ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.2/machinist_2.11-0.6.2.pom"/>
+				<caller organisation="org.typelevel" name="cats-free_2.11" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-macros_2.11" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-core_2.11" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.1.0"/>
+				<artifacts>
+					<artifact name="machinist_2.11" type="jar" ext="jar" status="no" details="" size="34603" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\machinist_2.11\jars\machinist_2.11-0.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.2/machinist_2.11-0.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-effect_2.11">
+			<revision name="0.10" status="release" pubdate="20180316221922" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://typelevel.org/cats-effect/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3323" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-effect_2.11\ivy-0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.11/0.10/cats-effect_2.11-0.10.pom"/>
+				<caller organisation="co.fs2" name="fs2-core_2.11" conf="compile, runtime" rev="0.10" rev-constraint-default="0.10" rev-constraint-dynamic="0.10" callerrev="0.10.3"/>
+				<artifacts>
+					<artifact name="cats-effect_2.11" type="jar" ext="jar" status="no" details="" size="656832" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.typelevel\cats-effect_2.11\jars\cats-effect_2.11-0.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.11/0.10/cats-effect_2.11-0.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.1" status="release" pubdate="20120223032242" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3471" time="0" location="C:\Users\farrelp1\.ivy2\cache\joda-time\joda-time\ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.pom"/>
+				<caller organisation="digitalmetering" name="digitalmetering" conf="compile, runtime" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="570478" time="0" location="C:\Users\farrelp1\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.univocity" name="univocity-parsers">
+			<revision name="2.6.3" status="release" pubdate="20180415221040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/uniVocity/univocity-parsers" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3693" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.univocity\univocity-parsers\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.6.3/univocity-parsers-2.6.3.pom"/>
+				<caller organisation="digitalmetering" name="digitalmetering" conf="compile, runtime" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="univocity-parsers" type="jar" ext="jar" status="no" details="" size="395803" time="0" location="C:\Users\farrelp1\.ivy2\cache\com.univocity\univocity-parsers\jars\univocity-parsers-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.6.3/univocity-parsers-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.11" status="release" pubdate="20170414055031" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2688" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.pom"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="2.5.1"/>
+				<caller organisation="org.typelevel" name="machinist_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.6.2"/>
+				<caller organisation="org.tpolecat" name="doobie-free_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.5.2"/>
+				<caller organisation="com.outr" name="lucene4s_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.6.0"/>
+				<caller organisation="org.typelevel" name="cats-macros_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.1.0"/>
+				<caller organisation="co.fs2" name="fs2-core_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.10.3"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="2.3.3"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.0.6"/>
+				<caller organisation="org.typelevel" name="cats-core_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-kernel_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.1.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="2.11.11"/>
+				<caller organisation="org.typelevel" name="cats-free_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.1.1"/>
+				<caller organisation="org.tpolecat" name="doobie-core_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.5.2"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.1.4"/>
+				<caller organisation="org.typelevel" name="cats-effect_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.10"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5748808" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="global-plugins">
+			<revision name="0.0" status="integration" pubdate="20180703195433" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="digitalmetering" name="digitalmetering" conf="compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ensime" name="sbt-ensime">
+			<revision name="2.5.1" status="release" pubdate="20180327202320" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ensime/ensime-sbt" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3443" time="0" location="C:\Users\farrelp1\.ivy2\cache\scala_2.12\sbt_1.0\org.ensime\sbt-ensime\ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.12_1.0/2.5.1/sbt-ensime-2.5.1.pom"/>
+				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="0.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-ensime" type="jar" ext="jar" status="no" details="" size="10401627" time="0" location="C:\Users\farrelp1\.ivy2\cache\scala_2.12\sbt_1.0\org.ensime\sbt-ensime\jars\sbt-ensime-2.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.12_1.0/2.5.1/sbt-ensime-2.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.dwijnand" name="sbt-compat">
+			<revision name="1.0.0" status="release" pubdate="20170822092611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/dwijnand/sbt-compat" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="1613" time="0" location="C:\Users\farrelp1\.ivy2\cache\scala_2.12\sbt_1.0\com.dwijnand\sbt-compat\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.12/sbt_1.0/1.0.0/ivys/ivy.xml"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="2.5.1" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-compat" type="jar" ext="jar" status="no" details="" size="3727" time="0" location="C:\Users\farrelp1\.ivy2\cache\scala_2.12\sbt_1.0\com.dwijnand\sbt-compat\jars\sbt-compat-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.12/sbt_1.0/1.0.0/jars/sbt-compat.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161102012105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="2.5.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="547860" time="0" location="C:\Users\farrelp1\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

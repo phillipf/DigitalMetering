@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : MergePurgeAttributes.xml
+    Created on : 11/26/10
+    Author     : Fumiko Kobayashi
+    Description:
+        Attribute xml file for the Merge-purge sample run
+-->
+
+<OysterAttributes System="School">
+    <Attribute Item="StudentFirstName"  Algo= "none" />
+    <Attribute Item="StudentLastName"  Algo="none" />
+    <Attribute Item="LEA"  Algo="none" />
+    <Attribute Item="StudentDateOfBirth"  Algo="none" />
+
+    <!-- -->
+    <IdentityRules>
+        <Rule Ident="1">
+            <Term Item="StudentFirstName" MatchResult="Exact"/>
+            <Term Item="StudentLastName" MatchResult="Exact"/>
+            <Term Item="StudentDateOfBirth" MatchResult="Exact"/>
+        </Rule>
+        <Rule Ident="2">
+            <Term Item="StudentLastName" MatchResult="Exact"/>
+            <Term Item="LEA" MatchResult="Exact"/>
+            <Term Item="StudentDateOfBirth" MatchResult="Exact"/>
+        </Rule>
+    </IdentityRules>
+</OysterAttributes>

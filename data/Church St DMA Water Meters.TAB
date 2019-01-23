@@ -1,0 +1,41 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 29
+    MASTERID Integer Index 1 ;
+    Q0_1516_WU10_20 Float ;
+    Q1_1516_WU10_20 Float ;
+    Q2_1516_WU10_20 Float ;
+    Q3_1516_WU10_20 Float ;
+    Q4_1516_WU10_20 Float ;
+    ACNAME Char (60) ;
+    H_Phone Integer ;
+    M_Phone Integer ;
+    W_Phone Integer ;
+    STREET Char (50) ;
+    LOCA_SUBURB Char (20) ;
+    LOCA_POSTCODE Integer ;
+    GBIMMETERNO Char (20) ;
+    IMIBUILDTYPE Char (20) ;
+    New_X Integer ;
+    New_Y Integer ;
+    XY_Updated Char (4) ;
+    ICHGCLASS Char (5) ;
+    Res_NonRes Char (6) ;
+    Prop_Status Char (10) ;
+    Water_Supply Char (3) ;
+    Sewer_Connected Char (3) ;
+    Recycled_Water Char (3) ;
+    Q0_1516_RU10_20 Float ;
+    Q1_1516_RU10_20 Float ;
+    Q2_1516_RU10_20 Float ;
+    Q3_1516_RU10_20 Float ;
+    Q4_1516_RU10_20 Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "a1541df1-9dd2-4db0-b23f-7c8205549fd3"
+end_metadata

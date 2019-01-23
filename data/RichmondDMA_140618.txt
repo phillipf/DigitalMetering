@@ -1,0 +1,10 @@
+green and electric: Arad: -99, ventia: -103
+green and electric: Arad: -103, ventia: -103
+railway place: Arad: -88, ventia: -88
+carpark: 
+2018-06-14 12:10:23 (arad): parking spot 
+2018-06-14 12:04:22 (arad): corner opposite entrance 
+
+2018-06-14 12:16:23 (arad): swann street bridge 
+
+2018-06-14 12:24:23 (arad): freeway 
